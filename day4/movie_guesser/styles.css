@@ -1,0 +1,10 @@
+.card {
+    background-color: rgb(235, 235, 235);
+    border: 2px solid rgb(191, 191, 191);
+}
+
+.btn-light:hover {
+    color: white;
+    border: solid 1px rgb(232, 232, 232);
+    background-color: #88b8ff;
+}

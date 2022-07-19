@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Number Guesser</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body class="bg-dark ">
+        <div class="container">
+            <div class="card m-5 p-5">
+                <h1 class="text-center display-2 mt-4 mb-4">Number Guesser</h1>
+                <p class="h5 mb-3">This is a small number guessing game, it will teach you all about the DOM</p>
+                <hr>
+                <div class="text-center">
+                    <label for="numberguess" class="h6">Guess a number between 0 and 10</label>
+                    <div>
+                        <input type='number' class="form-control" id='guess' placeholder='Your Number Here' style="width: 80%; float: left;"/>
+                        <button type="button" class="btn btn-primary" style="width: 20%; float:right;" onclick="checkanswer()">Submit</button>
+                    </div>
+                    <div id='result' class="mt-5 mb-0">...</div>
+                </div>
+            </div>
+        </div>
+        <script src="main.js"></script>
+    </body>
+</html>
