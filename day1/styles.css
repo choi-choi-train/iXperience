@@ -1,0 +1,23 @@
+body {
+    background-color: black;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(63, 63, 63);
+    padding: 10px;
+}
+
+.box {
+    display: flex;
+    width: calc(33.3333333% - 20px);
+    height: 200px;
+    background-color: blue;
+    margin: 10px;
+    justify-content: center;
+    align-items: center;
+}
+#bigbox {
+    width: calc(66.666666% - 20px);
+}
