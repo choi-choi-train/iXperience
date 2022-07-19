@@ -1,0 +1,36 @@
+button.side {
+    color: rgb(131, 131, 131);
+    border: solid rgb(209, 209, 209);
+    width: 10%
+}
+.btn:hover {
+    border: solid rgb(209, 209, 209);
+    border-width: 1px 1px 1px 0px;
+    color: rgb(131, 131, 131);
+    background-color: rgb(230, 230, 230)
+}
+input.side {
+    width: 90%;
+}
+button.right {
+    float: right;
+    border-width: 1px 1px 1px 0px;
+    border-radius: 0rem 0.5rem 0.5rem 0rem;
+}
+button.left {
+    float: left;
+    border-width: 1px 0px 1px 1px;
+    border-radius: 0.5rem 0rem 0rem 0.5rem;
+}
+.left {
+    float: left;
+    border-width: 1px;
+    border-radius: 0.5rem 0rem 0rem 0.5rem;
+}
+.completed-box {
+    background-color: rgb(120, 225, 167);
+    animation-name: move;
+    animation-duration: 4s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}

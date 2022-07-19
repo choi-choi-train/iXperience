@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Task List</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body class="bg-dark">
+        <div class="container text-center">
+            <div class="card m-5 p-4">
+                <h1>Task List</h1>
+                <hr>
+                <h4 class="mb-4">Our simple task list</h2>
+
+                <div>
+                    <input id="form" class="left side form-control mb-4" type="text" id="taskname" placeholder="Task">
+                    <button id="addbtn" type="button" class="right side btn">+</button>
+                </div>
+
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th>Task</th>
+                            <th>Completed</th>
+                            <th>Actions</th>
+                        </tr>
+                    </thead>
+                    <tbody id="tbody" class="table-group-divider">
+                        <!-- <tr>
+                            <td>...</td>
+                            <td>...</td>
+                            <td>
+                                <div class="d-inline-flex justify-content-center">
+                                    <button id="compbtn" type="button" class="left side btn" style="border: solid 1px rgb(209, 209, 209); width: 50%;">✓</button>
+                                    <button id="remvbtn" type="button" class="right side btn" style="width: 50%;">𝖷</button>
+                                </div>
+                            </td>
+                        </tr> -->
+                    </tbody>
+                </table>
+
+            </div>
+        </div>
+        <script src="main.js" async defer></script>
+    </body>
+</html>
